@@ -3,28 +3,9 @@ import Card from "./Card";
 function App() {
   return (
     <div className="" style={{ padding: '20%', position: 'relative' }}>
-      <select
-        style={{
-          float: 'right',
-          border: 'none',
-          background: 'transparent',
-          fontSize: '0.9rem',
-          color: '#666',
-          padding: '4px 8px',
-          margin: '8px',
-          appearance: 'none',
-          WebkitAppearance: 'none',
-          MozAppearance: 'none',
-          outline: 'none', // <- KEY PART
-          boxShadow: 'none', // <- Sometimes browsers add a shadow
-          cursor: 'pointer',
-        }}
-      >
-        <option value="en">EN</option>
-        <option value="fr">FR</option>
-        <option value="de">DE</option>
-        <option value="zh">中文</option>
-      </select>
+      <p style={{ textAlign: 'right', fontSize: 'small' }}>
+        EN / FR / DE / 中文
+      </p>
 
       <p style={{ fontSize: 'larger' }}>🌿Mathilde Paya</p>
       <p>
