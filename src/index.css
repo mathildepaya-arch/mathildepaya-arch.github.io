@@ -3,12 +3,18 @@ body {
   font-family: 'Work Sans', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  /* overflow: hidden; */
+}
+
+.header-section {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
-  overflow: hidden;
   text-align: center;
 }
 

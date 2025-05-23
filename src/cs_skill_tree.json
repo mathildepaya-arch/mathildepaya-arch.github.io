@@ -1,0 +1,62 @@
+{
+  "name": "Computer Science",
+  "children": [
+    {
+      "name": "Programming",
+      "children": [
+        {
+          "name": "Languages",
+          "children": [
+            { "name": "Python", "status": "mastered" },
+            { "name": "R", "status": "interested" },
+            { "name": "SQL", "status": "mastered" },
+            { "name": "JavaScript", "status": "mastered" },
+            { "name": "HTML", "status": "mastered" },
+            { "name": "CSS", "status": "mastered" },
+            { "name": "Bash", "status": "mastered" },
+            { "name": "PowerShell", "status": "unknown" },
+            { "name": "C/C++", "status": "interested" },
+            { "name": "Java", "status": "interested" },
+            { "name": "Rust", "status": "interested" },
+            { "name": "Go", "status": "unknown" },
+            { "name": "Kotlin", "status": "unknown" }
+          ]
+        },
+        {
+          "name": "Paradigms",
+          "children": [
+            { "name": "Object-Oriented", "status": "mastered" },
+            { "name": "Functional", "status": "interested" },
+            { "name": "Procedural", "status": "mastered" },
+            { "name": "Logic Programming", "status": "unknown" },
+            { "name": "Concurrent Programming", "status": "interested" }
+          ]
+        },
+        {
+          "name": "Tools & Practices",
+          "children": [
+            { "name": "Git & Version Control", "status": "mastered" },
+            { "name": "GitLab (commits, merge requests, CI/CD)", "status": "mastered" },
+            { "name": "GitHub", "status": "mastered" },
+            { "name": "Debugging Techniques", "status": "mastered" },
+            { "name": "Testing Frameworks", "status": "interested" },
+            { "name": "Build Automation", "status": "interested" },
+            { "name": "Integrated Development Environments", "status": "mastered" },
+            { "name": "MLflow", "status": "interested" },
+            { "name": "Virtual Machines", "status": "interested" },
+            { "name": "Docker Containers", "status": "mastered" },
+            { "name": "Confluence Documentation", "status": "mastered" }
+          ]
+        },
+        {
+          "name": "Software Craftsmanship",
+          "children": [
+            { "name": "Clean Coding", "status": "mastered" },
+            { "name": "Refactoring Techniques", "status": "interested" },
+            { "name": "Code Review Practices", "status": "mastered" }
+          ]
+        }
+      ]
+    }
+  ]
+}
