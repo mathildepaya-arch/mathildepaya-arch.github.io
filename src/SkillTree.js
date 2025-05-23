@@ -9,12 +9,11 @@ function jsonToTreemapData(node) {
     function statusToColor(status) {
         switch (status) {
             case 'mastered':
-                return 'green';
+                return '#9381ff';
             case 'interested':
-                return 'lightgreen';
-            case 'unknown':
+                return '#b8b8ff';
             default:
-                return 'lightgrey';
+                return '#b8b8ff';
         }
     }
 
@@ -26,7 +25,7 @@ function jsonToTreemapData(node) {
         if (!node.children || node.children.length === 0) {
             colors.push(statusToColor(node.status));
         } else {
-            colors.push('lightgrey'); // Internal nodes have no color
+            colors.push('#f8f7ff'); // Internal nodes have no color
             node.children.forEach(child => traverse(child, node.name));
         }
     }
@@ -56,9 +55,7 @@ export default function SkillTree({ data, width, height }) {
         title: data.name,
         width,
         height,
-        font: { family: 'Work Sans, sans-serif', color: 'black' },
-        paper_bgcolor: 'white',
-        plot_bgcolor: 'white',
+        font: { family: 'Fira Code, monospace'},
         hovermode: false,
       }}
       config={{ displayModeBar: false }}
