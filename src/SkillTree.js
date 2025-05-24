@@ -25,7 +25,7 @@ function jsonToTreemapData(node) {
         if (!node.children || node.children.length === 0) {
             colors.push(statusToColor(node.status));
         } else {
-            colors.push('#f8f7ff'); // Internal nodes have no color
+            colors.push('#F5F0FF'); // Internal nodes have no color
             node.children.forEach(child => traverse(child, node.name));
         }
     }
