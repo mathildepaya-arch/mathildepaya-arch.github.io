@@ -79,7 +79,8 @@
         { "name": "Cryptography", "status": "mastered" },
         { "name": "Network Security", "status": "interested" },
         { "name": "OS Security", "status": "interested" },
-        { "name": "Secure Protocols (TLS, SSH, HTTPS, etc.)", "status": "interested" }
+        { "name": "Secure Protocols (TLS, SSH, HTTPS, etc.)", "status": "interested" },
+        { "name": "Malware Analysis", "status": "interested" }
       ]
     },
     {
@@ -89,8 +90,7 @@
         { "name": "Algorithmics", "status": "mastered" },
         { "name": "Problem Solving & Algorithms", "status": "mastered" },
         { "name": "Compilers & Interpreters", "status": "interested" },
-        { "name": "Operating Systems Internals", "status": "interested" },
-        { "name": "Malware Analysis", "status": "interested" }
+        { "name": "Operating Systems Internals", "status": "interested" }
       ]
     },
     {

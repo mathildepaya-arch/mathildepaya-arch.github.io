@@ -38,7 +38,7 @@ export default function SkillTree({ data, width, height }) {
   const { labels, parents, colors } = useMemo(() => jsonToTreemapData(data), [data]);
 
   return (
-    <>
+    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start' }}>
       <Plot
         data={[
           {
@@ -61,7 +61,7 @@ export default function SkillTree({ data, width, height }) {
         }}
         config={{ displayModeBar: false }}
       />
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 6, alignItems: 'flex-start', marginTop: 12 }}>
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 6, alignItems: 'flex-start', marginTop: 24 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
           <span style={{
             display: 'inline-block',
@@ -85,6 +85,6 @@ export default function SkillTree({ data, width, height }) {
           <span style={{ fontSize: 11 }}>Interested</span>
         </div>
       </div>
-    </>
+    </div>
   );
 }
