@@ -8,228 +8,98 @@
           "name": "Languages",
           "children": [
             { "name": "Python", "status": "mastered" },
-            { "name": "Java", "status": "interested" },
-            { "name": "C++", "status": "mastered" },
             { "name": "JavaScript", "status": "mastered" },
-            { "name": "Go", "status": "interested" },
-            { "name": "Rust", "status": "interested" },
+            { "name": "Bash", "status": "mastered" },
+            { "name": "PowerShell", "status": "mastered" },
             { "name": "SQL", "status": "mastered" },
-            { "name": "HTML", "status": "mastered" },
-            { "name": "CSS", "status": "mastered" }
+            { "name": "R", "status": "mastered" },
+            { "name": "C", "status": "interested" }
           ]
         },
         {
-          "name": "Paradigms",
+          "name": "Web & UI Development",
           "children": [
-            { "name": "Object-Oriented", "status": "mastered" },
-            { "name": "Functional", "status": "interested" },
-            { "name": "Procedural", "status": "mastered" },
-            { "name": "Declarative", "status": "interested" },
-            { "name": "Event-Driven", "status": "mastered" }
+            { "name": "HTML/CSS/Javascript", "status": "mastered" },
+            { "name": "React", "status": "mastered" },
+            { "name": "Streamlit", "status": "mastered" },
+            { "name": "FastAPI", "status": "mastered" },
+            { "name": "UI/UX Design (Figma, Wireframing)", "status": "mastered" }
           ]
         },
         {
-          "name": "Development Tools",
+          "name": "DevOps & Infrastructure",
           "children": [
-            { "name": "Git", "status": "mastered" },
-            { "name": "Docker", "status": "interested" },
-            { "name": "Kubernetes", "status": "interested" },
-            { "name": "CI/CD", "status": "mastered" }
+            { "name": "Docker", "status": "mastered" },
+            { "name": "CI/CD", "status": "mastered" },
+            { "name": "Git/GitHub/GitLab", "status": "mastered" },
+            { "name": "Virtual Machines", "status": "mastered" },
+            { "name": "Linux Systems", "status": "mastered" },
+            { "name": "Windows Systems", "status": "mastered" },
+            { "name": "Google Cloud Platform", "status": "mastered" }
           ]
         }
       ]
     },
     {
-      "name": "Data Science & AI",
+      "name": "Data & AI",
       "children": [
-        {
-          "name": "Machine Learning",
-          "children": [
-            { "name": "Supervised Learning", "status": "mastered" },
-            { "name": "Unsupervised Learning", "status": "interested" },
-            { "name": "Reinforcement Learning", "status": "interested" },
-            { "name": "Deep Learning", "status": "mastered" },
-            { "name": "Neural Networks", "status": "mastered" }
-          ]
-        },
         {
           "name": "Data Engineering",
           "children": [
             { "name": "Data Pipelines", "status": "mastered" },
-            { "name": "ETL Processes", "status": "mastered" },
-            { "name": "Big Data Technologies", "status": "interested" }
+            { "name": "SQL (PostgreSQL, SQLite)", "status": "mastered" },
+            { "name": "ORMs (Prisma, SQLModel)", "status": "mastered" },
+            { "name": "BigQuery", "status": "mastered" }
           ]
         },
         {
-          "name": "Data Visualization",
+          "name": "Machine Learning & AI",
           "children": [
-            { "name": "Tableau", "status": "interested" },
-            { "name": "Matplotlib", "status": "mastered" },
-            { "name": "D3.js", "status": "interested" }
+            { "name": "Advanced Machine Learning", "status": "mastered" },
+            { "name": "Scikit-learn, PyTorch, Tensorflow", "status": "mastered" },
+            { "name": "Deep Learning / Neural Networks", "status": "mastered" },
+            { "name": "Agentic AI / LLMs", "status": "mastered" },
+            { "name": "MLflow", "status": "mastered" }
+          ]
+        },
+        {
+          "name": "Data Analysis & Visualization",
+          "children": [
+            { "name": "Pandas", "status": "mastered" },
+            { "name": "Plotly", "status": "mastered" }
           ]
         }
       ]
     },
     {
-      "name": "Systems & Networking",
+      "name": "Systems & Security",
       "children": [
-        {
-          "name": "Operating Systems",
-          "children": [
-            { "name": "Linux", "status": "mastered" },
-            { "name": "Windows", "status": "mastered" },
-            { "name": "macOS", "status": "interested" },
-            { "name": "Kernel Development", "status": "interested" }
-          ]
-        },
-        {
-          "name": "Networking",
-          "children": [
-            { "name": "TCP/IP", "status": "mastered" },
-            { "name": "DNS", "status": "mastered" },
-            { "name": "HTTP/HTTPS", "status": "mastered" },
-            { "name": "VPN", "status": "interested" },
-            { "name": "Network Security", "status": "interested" }
-          ]
-        },
-        {
-          "name": "Distributed Systems",
-          "children": [
-            { "name": "Cloud Computing", "status": "mastered" },
-            { "name": "Microservices", "status": "mastered" },
-            { "name": "Message Queues", "status": "interested" },
-            { "name": "Consensus Algorithms", "status": "interested" }
-          ]
-        }
+        { "name": "SCADA Systems", "status": "mastered" },
+        { "name": "Networking & Protocols (Basics)", "status": "mastered" },
+        { "name": "Cryptography", "status": "mastered" },
+        { "name": "Network Security", "status": "interested" },
+        { "name": "OS Security", "status": "interested" },
+        { "name": "Secure Protocols (TLS, SSH, HTTPS, etc.)", "status": "interested" }
       ]
     },
     {
-      "name": "Theory & Foundations",
+      "name": "Computer Science Foundations",
       "children": [
-        {
-          "name": "Algorithms",
-          "children": [
-            { "name": "Sorting & Searching", "status": "mastered" },
-            { "name": "Graph Algorithms", "status": "mastered" },
-            { "name": "Dynamic Programming", "status": "interested" },
-            { "name": "Computational Complexity", "status": "interested" }
-          ]
-        },
-        {
-          "name": "Mathematics",
-          "children": [
-            { "name": "Discrete Math", "status": "mastered" },
-            { "name": "Linear Algebra", "status": "interested" },
-            { "name": "Probability & Statistics", "status": "mastered" },
-            { "name": "Number Theory", "status": "interested" }
-          ]
-        },
-        {
-          "name": "Formal Methods",
-          "children": [
-            { "name": "Automata Theory", "status": "interested" },
-            { "name": "Logic", "status": "interested" },
-            { "name": "Type Theory", "status": "mastered" }
-          ]
-        }
+        { "name": "Mathematics & Statistics", "status": "mastered" },
+        { "name": "Algorithmics", "status": "mastered" },
+        { "name": "Problem Solving & Algorithms", "status": "mastered" },
+        { "name": "Compilers & Interpreters", "status": "interested" },
+        { "name": "Operating Systems Internals", "status": "interested" },
+        { "name": "Malware Analysis", "status": "interested" }
       ]
     },
     {
-      "name": "Software Engineering",
+      "name": "Software Engineering Practices",
       "children": [
-        {
-          "name": "Design Patterns",
-          "children": [
-            { "name": "Singleton", "status": "mastered" },
-            { "name": "Observer", "status": "interested" },
-            { "name": "Factory", "status": "mastered" },
-            { "name": "Strategy", "status": "interested" }
-          ]
-        },
-        {
-          "name": "Testing",
-          "children": [
-            { "name": "Unit Testing", "status": "mastered" },
-            { "name": "Integration Testing", "status": "mastered" },
-            { "name": "Test Automation", "status": "interested" }
-          ]
-        },
-        {
-          "name": "Project Management",
-          "children": [
-            { "name": "Agile", "status": "mastered" },
-            { "name": "Scrum", "status": "interested" },
-            { "name": "Kanban", "status": "interested" }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Security",
-      "children": [
-        {
-          "name": "Cryptography",
-          "children": [
-            { "name": "Symmetric Encryption", "status": "mastered" },
-            { "name": "Asymmetric Encryption", "status": "interested" },
-            { "name": "Hash Functions", "status": "mastered" },
-            { "name": "Digital Signatures", "status": "interested" }
-          ]
-        },
-        {
-          "name": "Application Security",
-          "children": [
-            { "name": "OWASP Top 10", "status": "interested" },
-            { "name": "Penetration Testing", "status": "interested" },
-            { "name": "Secure Coding", "status": "mastered" }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Human-Computer Interaction",
-      "children": [
-        {
-          "name": "UI/UX Design",
-          "children": [
-            { "name": "Wireframing", "status": "interested" },
-            { "name": "Prototyping", "status": "mastered" },
-            { "name": "User Research", "status": "interested" }
-          ]
-        },
-        {
-          "name": "Accessibility",
-          "children": [
-            { "name": "Screen Readers", "status": "interested" },
-            { "name": "Keyboard Navigation", "status": "mastered" }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Emerging Technologies",
-      "children": [
-        {
-          "name": "Quantum Computing",
-          "children": [
-            { "name": "Quantum Algorithms", "status": "interested" },
-            { "name": "Quantum Hardware", "status": "interested" }
-          ]
-        },
-        {
-          "name": "Blockchain",
-          "children": [
-            { "name": "Smart Contracts", "status": "interested" },
-            { "name": "Consensus Mechanisms", "status": "interested" }
-          ]
-        },
-        {
-          "name": "Edge Computing",
-          "children": [
-            { "name": "IoT Integration", "status": "interested" },
-            { "name": "Latency Optimization", "status": "interested" }
-          ]
-        }
+        { "name": "Testing (Unit, Integration, E2E)", "status": "mastered" },
+        { "name": "Automation of Tasks", "status": "mastered" },
+        { "name": "Project Management", "status": "mastered" },
+        { "name": "Software Architecture", "status": "mastered" }
       ]
     }
   ]

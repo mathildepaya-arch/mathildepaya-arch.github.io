@@ -56,7 +56,6 @@ function App() {
           display: 'flex',
           flexDirection: 'row',
           gap: '20px',
-          marginTop: '20px',
           fontSize: 'smaller',
           color: '#666666',
           justifyContent: 'center',
